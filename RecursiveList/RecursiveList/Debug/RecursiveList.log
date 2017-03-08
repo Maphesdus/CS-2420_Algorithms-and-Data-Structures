@@ -1,0 +1,15 @@
+﻿Build started 4/18/2016 1:49:39 PM.
+     1>Project "F:\.00 My Stuff\School Stuff\Spring 2016\CS 2420 - Algorithms and Data Structures\RecursiveList_B1\RecursiveList\RecursiveList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt List.cpp
+         List.cpp
+     1>f:\.00 my stuff\school stuff\spring 2016\cs 2420 - algorithms and data structures\recursivelist_b1\recursivelist\list.cpp(187): warning C4715: 'list_2::List::find_helper': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\.00 My Stuff\School Stuff\Spring 2016\CS 2420 - Algorithms and Data Structures\RecursiveList_B1\Debug\RecursiveList.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:\.00 My Stuff\School Stuff\Spring 2016\CS 2420 - Algorithms and Data Structures\RecursiveList_B1\Debug\RecursiveList.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\.00 My Stuff\School Stuff\Spring 2016\CS 2420 - Algorithms and Data Structures\RecursiveList_B1\Debug\RecursiveList.lib" /MACHINE:X86 Debug\List.obj
+         Debug\list_test.obj
+         RecursiveList.vcxproj -> F:\.00 My Stuff\School Stuff\Spring 2016\CS 2420 - Algorithms and Data Structures\RecursiveList_B1\Debug\RecursiveList.exe
+     1>Done Building Project "F:\.00 My Stuff\School Stuff\Spring 2016\CS 2420 - Algorithms and Data Structures\RecursiveList_B1\RecursiveList\RecursiveList.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51

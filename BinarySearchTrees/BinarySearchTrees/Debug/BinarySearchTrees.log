@@ -1,0 +1,4 @@
+﻿  BinarySearchTree.cpp
+c:\users\10435286\desktop\binarysearchtrees\binarysearchtrees\binarysearchtree.cpp(146): warning C4715: 'BinarySearchTree::Find': not all control paths return a value
+  BinarySearchTrees.vcxproj -> C:\Users\10435286\Desktop\BinarySearchTrees\Debug\BinarySearchTrees.exe
+  BinarySearchTrees.vcxproj -> C:\Users\10435286\Desktop\BinarySearchTrees\Debug\BinarySearchTrees.pdb (Partial PDB)

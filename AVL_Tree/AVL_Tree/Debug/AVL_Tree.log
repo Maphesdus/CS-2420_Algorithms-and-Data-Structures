@@ -1,0 +1,102 @@
+﻿Build started 4/22/2016 4:59:38 PM.
+     1>Project "E:\.00 My Stuff\.CS 2420 - Algorithms and Data Structures\AVL_Tree\AVL_Tree\AVL_Tree.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AVLtree.cpp driver.cpp
+         AVLtree.cpp
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(114): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(230): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(230): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(230): error C2232: '->Node::right': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(231): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(231): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(231): error C2232: '->Node::right': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(232): error C2659: '=': function as left operand
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(249): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(249): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(249): error C2232: '->Node::left': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(249): error C2227: left of '->right' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(250): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(250): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(250): error C2232: '->Node::left': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(251): error C2227: left of '->right' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(252): error C2659: '=': function as left operand
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(253): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(253): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(253): error C2232: '->Node::left': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(270): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(270): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(270): error C2232: '->Node::right': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(270): error C2227: left of '->left' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(271): error C2659: '=': function as left operand
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(272): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(272): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(272): error C2232: '->Node::right': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(272): error C2227: left of '->left' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(273): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(273): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(273): error C2232: '->Node::right': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(274): error C2819: type 'Node' does not have an overloaded member 'operator ->'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.h(25): note: see declaration of 'Node'
+         e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(274): note: did you intend to use '.' instead?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(274): error C2232: '->Node::right': left operand has 'struct' type, use '.'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(315): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(316): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(317): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(318): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(324): error C2227: left of '->bal' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(327): error C2664: 'Node *AVLtree::RotateLeftRight(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(331): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(332): error C2664: 'Node *AVLtree::RotateLeftRight(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(333): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(334): error C2664: 'Node *AVLtree::RotateLeftRight(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(338): error C2227: left of '->bal' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(345): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(346): error C2659: '=': function as left operand
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(347): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(348): error C2659: '=': function as left operand
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(355): error C2227: left of '->bal' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(358): error C2664: 'Node *AVLtree::RotateRight(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(362): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(363): error C2664: 'Node *AVLtree::RotateRight(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(364): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(365): error C2664: 'Node *AVLtree::RotateRight(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(369): error C2227: left of '->bal' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(372): error C2664: 'Node *AVLtree::RotateRightLeft(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(375): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(376): error C2664: 'Node *AVLtree::RotateRightLeft(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(377): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(378): error C2664: 'Node *AVLtree::RotateRightLeft(Node &)': cannot convert argument 1 from 'Node *' to 'Node &'
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(315): warning C4390: ';': empty controlled statement found; is this the intent?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(317): warning C4390: ';': empty controlled statement found; is this the intent?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(405): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(405): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(424): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(424): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(424): error C2660: 'Node::max': function does not take 1 arguments
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(442): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(446): error C2227: left of '->bal' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(448): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(452): error C2227: left of '->bal' must point to class/struct/union/generic type
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(456): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(457): error C3867: 'Node::left': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(459): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(460): error C3867: 'Node::right': non-standard syntax; use '&' to create a pointer to member
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(456): warning C4390: ';': empty controlled statement found; is this the intent?
+     1>e:\.00 my stuff\.cs 2420 - algorithms and data structures\avl_tree\avl_tree\avltree.cpp(459): warning C4390: ';': empty controlled statement found; is this the intent?
+         Generating Code...
+         Compiling...
+         driver.cpp
+         Generating Code...
+     1>Done Building Project "E:\.00 My Stuff\.CS 2420 - Algorithms and Data Structures\AVL_Tree\AVL_Tree\AVL_Tree.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.15

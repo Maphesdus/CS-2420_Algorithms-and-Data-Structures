@@ -1,0 +1,21 @@
+﻿Build started 11/30/2015 11:58:48 AM.
+     1>Project "c:\Users\adam.adam-pc\documents\visual studio 2015\Projects\LinkedList\LinkedList\LinkedList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt LinkedList.cpp
+         LinkedList.cpp
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(5): error C2512: 'Node::Node': no appropriate default constructor available
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(56): warning C4553: '==': operator has no effect; did you intend '='?
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(72): error C2065: '_headPtr': undeclared identifier
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(72): error C2065: '_endPtr': undeclared identifier
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(74): error C2065: '_headPtr': undeclared identifier
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(75): error C2065: '_endPtr': undeclared identifier
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(79): error C2065: '_headPtr': undeclared identifier
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(80): error C2065: '_headPtr': undeclared identifier
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(80): error C2227: left of '->LinkRear' must point to class/struct/union/generic type
+         c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(80): note: type is 'unknown-type'
+     1>c:\users\adam.adam-pc\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.cpp(81): error C2065: '_headPtr': undeclared identifier
+     1>Done Building Project "c:\Users\adam.adam-pc\documents\visual studio 2015\Projects\LinkedList\LinkedList\LinkedList.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.49

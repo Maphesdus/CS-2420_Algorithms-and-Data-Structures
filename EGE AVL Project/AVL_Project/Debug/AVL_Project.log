@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\edison\documents\visual studio 2015\projects\avl_project\avl_project\avl_tree.h(19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Node.cpp
+  AVL_Tree.cpp
+c:\users\edison\documents\visual studio 2015\projects\avl_project\avl_project\avl_tree.h(19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\edison\documents\visual studio 2015\projects\avl_project\avl_project\avl_tree.cpp(113): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\edison\documents\visual studio 2015\projects\avl_project\avl_project\avl_tree.cpp(167): warning C4553: '==': operator has no effect; did you intend '='?
+  Generating Code...
+  AVL_Project.vcxproj -> C:\Users\Edison\documents\visual studio 2015\Projects\AVL_Project\Debug\AVL_Project.exe
+  AVL_Project.vcxproj -> C:\Users\Edison\documents\visual studio 2015\Projects\AVL_Project\Debug\AVL_Project.pdb (Partial PDB)
